@@ -29,8 +29,8 @@ export default function AccordionItem({ group, pages }: AccordionType) {
       >
         <div>
           {pages.map(page =>
-            <p className={linkStyle}>
-              <Link href={page.url} key={page.title}>
+            <p className={linkStyle} key={page.title}>
+              <Link href={page.url}>
                 {page.title}
               </Link>
             </p>
