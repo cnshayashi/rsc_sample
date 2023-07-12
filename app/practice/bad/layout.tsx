@@ -59,7 +59,7 @@ export default function BadLayout({ children }: { children: React.ReactNode }) {
       <div className={wrapperStyle}>
         <div
           className={headerStyle}>
-          <p className={titleStyle}>ページタイトル</p>
+          <p className={titleStyle}>Bad Page</p>
         </div>
         <div className={bodyStyle}>
           <div className={sideStyle}>
